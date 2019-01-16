@@ -11,6 +11,10 @@ img {
     width: 100%;
 }
 
+table {
+    border-collapse: collapse;
+}
+
 /* Firefox not display the ugly dotted focus outlines on links */
 button::-moz-focus-inner {
     border: 0;
