@@ -1,4 +1,4 @@
-<img src="logo.jpg" width="100%">
+<img src="logo.png" width="100%">
 
 Removes the annoying elements when developing a web compatible with browsers.
 
