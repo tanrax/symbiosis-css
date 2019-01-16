@@ -1,4 +1,6 @@
-<img src="logo.png" width="100%">
+<p align="center">
+<img src="logo.png" width="80%">
+</p>
 
 Modern normalizer. Removes the annoying elements when developing a web compatible with browsers.
 
