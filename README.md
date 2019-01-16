@@ -1,4 +1,4 @@
-# Symbiosis.css
+<img src="logo.jpg" width="100%">
 
 Removes the annoying elements when developing a web compatible with browsers.
 
