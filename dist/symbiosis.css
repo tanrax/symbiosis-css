@@ -1,1 +1,21 @@
+body {
+    margin: 0;
+}
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+    width: 100%;
+}
+
+/* Firefox not display the ugly dotted focus outlines on links */
+button::-moz-focus-inner {
+    border: 0;
+}
+
+a:focus { 
+    outline: none; 
+}
