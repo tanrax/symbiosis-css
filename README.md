@@ -13,11 +13,11 @@ Right click and save as... [symbiosis.css](https://raw.githubusercontent.com/tan
 ### Standard version
 
 ``` html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tanrax/symbiosis-css@v1.0/symbiosis.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tanrax/symbiosis-css@v1.1/symbiosis.css">
 ```
 
 ### Minified version
 
 ``` html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tanrax/symbiosis-css@v1.0/symbiosis.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tanrax/symbiosis-css@v1.1/symbiosis.min.css">
 ```
