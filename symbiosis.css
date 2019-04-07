@@ -24,7 +24,7 @@ td, th {
 }
 
 table, th, td {
-  border: 1px solid $border;
+  border: 1px solid black;
 }
 
 /* Firefox not display the ugly dotted focus outlines on links */
