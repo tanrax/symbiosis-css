@@ -1,10 +1,12 @@
 body {
     margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.4;
+    text-rendering: optimizeLegibility;
 }
 
 a {
   text-decoration: none;
-  color: black;
 }
 
 img {
@@ -12,11 +14,17 @@ img {
 }
 
 table {
-    border-collapse: collapse;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+  width: 100%;
 }
 
-a, button {
-    cursor: pointer;
+td, th {
+  padding: 6px;
+}
+
+table, th, td {
+  border: 1px solid $border;
 }
 
 /* Firefox not display the ugly dotted focus outlines on links */
@@ -26,4 +34,12 @@ button::-moz-focus-inner {
 
 a:focus, button:focus, input:focus { 
     outline: none; 
+}
+
+a,
+button,
+input[type='submit'],
+input[type='button'],
+input[type='checkbox'] {
+  cursor: pointer;
 }
