@@ -43,3 +43,8 @@ input[type='button'],
 input[type='checkbox'] {
   cursor: pointer;
 }
+
+/* iOS remove zoom double tap */
+button {
+    touch-action: manipulation;
+}
