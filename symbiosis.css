@@ -1,75 +1,66 @@
-// ===
-// Common: Match typography size
-// ===
 html {
-    font-size: 16px;
+    /* Common: Match typography size */
+    font-size: 1rem;
 }
 
-// ===
-// Common: Removes the default margin from body
-// ===
+
 body {
+    /* Common: Removes the default margin from body */
     margin: 0;
-}
-
-// ===
-// Common: Sets in common the way of rendering the text
-// ===
-body {
+    /* Common: Sets in common the way of rendering the text */
     text-rendering: optimizeLegibility;
-}
-
-// ===
-// Common: Standardizes typography
-// ===
-body {
+    /* Common: Standardizes typography */
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    /* Common: Standardizes line height. */
+    line-height: 125%;
 }
 
-// ===
-// Common: Standardizes line height.
-// ===
-body {
-    line-height: 1.4;
-}
-
-// ===
-// Hyperlink: Remove the bottom line.
-// ===
 a {
-  text-decoration: none;
+    /* Hyperlink: Remove the bottom line. */
+    text-decoration: none;
+    /* Hyperlink: Remove default color */
+    color: unset;
+    /* iOS: remove the color of the highlight that appears over a link while it's being tapped */
+    -webkit-tap-highlight-color: transparent;
 }
 
-// ===
-// Pictures: Gives 100% width to fit containers
-// ===
-img, picture {
+/* Pictures: Gives 100% width to fit containers */
+img,
+picture {
     width: 100%;
 }
 
 table {
-  border-collapse: collapse;
-  margin-bottom: 10px;
-  width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    width: 100%;
 }
 
-td, th {
-  padding: 6px;
+td,
+th {
+    padding: 6px;
 }
 
-table, th, td {
-  border: 1px solid black;
+table,
+th,
+td {
+    border: 1px solid black;
 }
 
-// ===
-// Firefox: not display the ugly dotted focus outlines on links
-// ===
-button::-moz-focus-inner {
+/* Firefox: remove inner focus ring */
+button::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="color"]::-moz-focus-inner {
     border: 0;
 }
 
-a:focus, button:focus, input:focus { 
-    outline: none; 
+a:focus,
+textarea:focus,
+button:focus,
+input:focus {
+    outline: none;
 }
 
 a,
@@ -77,12 +68,44 @@ button,
 input[type='submit'],
 input[type='button'],
 input[type='checkbox'] {
-  cursor: pointer;
+    cursor: pointer;
 }
 
-// ===
-// iOS: remove zoom double tap
-// ===
+/* iOS: remove zoom double tap */
 button {
     touch-action: manipulation;
 }
+
+/* iOS && Firefox: remove default input appearince */
+/* Remove or add any input type */
+input[type="button"],
+input[type="checkbox"],
+input[type="email"],
+input[type="file"],
+input[type="number"],
+input[type="reset"],
+input[type="search"],
+input[type="submit"],
+input[type="tel"],
+input[type="text"],
+input[type="url"],
+textarea {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+/* iOS: remove the "cancel button" at the edge of an <input> of type="search" */
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+/* Remove resize option for textarea */
+textarea {
+    resize: none;
+}
+
+/* Firefox: remove default input:invalid appearence */
+input:invalid {
+    box-shadow: none;
+}
+
