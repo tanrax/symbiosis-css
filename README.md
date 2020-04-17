@@ -7,7 +7,7 @@ It's a compilation of knowledge learned by the team through reading official doc
 
 ## Download
 
-Right click and save as...
+Right click and ___save as__...
 
 [Development](https://raw.githubusercontent.com/tanrax/symbiosis-css/v1.4/symbiosis.css)
 
