@@ -1,6 +1,6 @@
 html {
-    /* Common: Match typography size */
-    font-size: 16px;
+    /* Common: Improved accessibility */
+    font-size: 1rem;
 }
 
 body {
