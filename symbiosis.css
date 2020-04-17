@@ -1,6 +1,6 @@
 html {
     /* Common: Match typography size */
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 
@@ -108,4 +108,3 @@ textarea {
 input:invalid {
     box-shadow: none;
 }
-
