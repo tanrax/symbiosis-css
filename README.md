@@ -6,18 +6,18 @@ Modern normalizer. Removes the annoying elements when developing a web compatibl
 
 ## Download
 
-Right click and save as... [symbiosis.css](https://raw.githubusercontent.com/tanrax/symbiosis-css/v1.2/symbiosis.css)
+Right click and save as... [symbiosis.css](https://raw.githubusercontent.com/tanrax/symbiosis-css/v1.3/symbiosis.css)
 
 ## CDN
 
 ### Standard version
 
 ``` html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tanrax/symbiosis-css@v1.2/symbiosis.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tanrax/symbiosis-css@v1.3/symbiosis.css">
 ```
 
 ### Minified version
 
 ``` html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tanrax/symbiosis-css@v1.2/symbiosis.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tanrax/symbiosis-css@v1.3/symbiosis.min.css">
 ```
