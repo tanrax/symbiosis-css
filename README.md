@@ -8,12 +8,12 @@ Modern normalizer. Removes the annoying elements when developing a web compatibl
 
 Right click and save as...
 
-[Development](https://raw.githubusercontent.com/tanrax/symbiosis-css/v1.3/symbiosis.css)
+[Development](https://raw.githubusercontent.com/tanrax/symbiosis-css/v1.4/symbiosis.css)
 
-[Production](https://cdn.jsdelivr.net/gh/tanrax/symbiosis-css@v1.3/symbiosis.min.css)
+[Production](https://cdn.jsdelivr.net/gh/tanrax/symbiosis-css@v1.4/symbiosis.min.css)
 
 ## CDN
 
 ``` html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tanrax/symbiosis-css@v1.3/symbiosis.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tanrax/symbiosis-css@v1.4/symbiosis.min.css">
 ```
