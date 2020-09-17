@@ -9,12 +9,12 @@ It's a compilation of knowledge learned by the team through reading official doc
 
 Right click and ___save as__...
 
-[Development](https://raw.githubusercontent.com/sapps-studio/symbiosis-css/v1.4/symbiosis.css)
+[Development](https://raw.githubusercontent.com/sapps-studio/symbiosis-css/v1.5/symbiosis.css)
 
-[Production](https://cdn.jsdelivr.net/gh/sapps-studio/symbiosis-css@v1.4/symbiosis.min.css)
+[Production](https://cdn.jsdelivr.net/gh/sapps-studio/symbiosis-css@v1.5/symbiosis.min.css)
 
 ## CDN
 
 ``` html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sapps-studio/symbiosis-css@v1.4/symbiosis.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sapps-studio/symbiosis-css@v1.5/symbiosis.min.css">
 ```
