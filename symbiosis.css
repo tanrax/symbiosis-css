@@ -12,6 +12,8 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     /* Common: Standardizes line height. */
     line-height: 125%;
+    /* Common: Optimize load font. */
+    font-display: swap;
 }
 
 a {
