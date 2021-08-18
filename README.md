@@ -11,10 +11,10 @@ Right click and ___save as__...
 
 [Development](https://raw.githubusercontent.com/sapps-studio/symbiosis-css/v1.6/symbiosis.css)
 
-[Production](https://cdn.jsdelivr.net/gh/sapps-studio/symbiosis-css@v1.6/symbiosis.min.css)
+[Production](https://cdn.jsdelivr.net/gh/sapps-studio/symbiosis-css/symbiosis.min.css)
 
 ## CDN
 
 ``` html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sapps-studio/symbiosis-css@v1.6/symbiosis.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sapps-studio/symbiosis-css/symbiosis.min.css">
 ```
