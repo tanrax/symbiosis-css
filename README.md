@@ -2,7 +2,7 @@
 <img src="logo.png" width="80%">
 </p>
 
-It's **not a reset, a framework or a new normalize.css**, it could be considered a **normalize.css update that respects desktop and mobile versions (Android and iOS)**. Symbiosis fixes small problems in **web pages, PWA or hybrid apps**, avoiding common development problems.
+It's could be considered a **normalize.css update that respects desktop and mobile versions (Android and iOS)**. Symbiosis fixes small problems in **web pages, PWA or hybrid apps**, avoiding common development problems.
 It's a compilation of knowledge learned by the team through reading official documentation and learning from ourselves.
 
 ## Download
