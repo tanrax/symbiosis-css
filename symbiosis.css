@@ -1,17 +1,65 @@
+/*
+  Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/*
+  Remove default margin
+*/
+* {
+  margin: 0;
+}
+
+/*
+  Allow percentage-based heights in the application
+*/
+html, body {
+  height: 100%;
+}
+
+/*
+  Typographic tweaks!
+  Add accessible line-height
+  Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+  Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  width: 100%;
+}
+/*
+  Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+
+/*
+  Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
 html {
     /* Common: Improved accessibility */
     font-size: 1rem;
 }
 
 body {
-    /* Common: Removes the default margin from body */
-    margin: 0;
     /* Common: Sets in common the way of rendering the text */
     text-rendering: optimizeLegibility;
     /* Common: Standardizes typography */
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    /* Common: Standardizes line height. */
-    line-height: 125%;
     /* Common: Optimize load font. */
     font-display: swap;
 }
@@ -23,12 +71,6 @@ a {
     color: unset;
     /* iOS: remove the color of the highlight that appears over a link while it's being tapped */
     -webkit-tap-highlight-color: transparent;
-}
-
-/* Pictures: Gives 100% width to fit containers */
-img,
-picture {
-    width: 100%;
 }
 
 /* Table: Standardize and modernize the appearance */
@@ -66,14 +108,6 @@ input:focus {
     outline: none;
 }
 
-a,
-button,
-input[type='submit'],
-input[type='button'],
-input[type='checkbox'] {
-    cursor: pointer;
-}
-
 /* iOS: remove zoom double tap */
 button {
     touch-action: manipulation;
@@ -97,6 +131,11 @@ textarea {
     -webkit-appearance: none;
 }
 
+/* Firefox: remove default input:invalid appearence */
+input:invalid {
+    box-shadow: none;
+}
+
 /* iOS: remove the "cancel button" at the edge of an <input> of type="search" */
 input[type="search"]::-webkit-search-cancel-button {
     -webkit-appearance: none;
@@ -105,9 +144,4 @@ input[type="search"]::-webkit-search-cancel-button {
 /* Remove resize option for textarea */
 textarea {
     resize: none;
-}
-
-/* Firefox: remove default input:invalid appearence */
-input:invalid {
-    box-shadow: none;
 }
