@@ -1,25 +1,20 @@
 /*
-  Use a more-intuitive box-sizing model.
-*/
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-/*
-  Remove default margin
-*/
-* {
-  margin: 0;
-}
-
-/*
   Typographic tweaks!
   Add accessible line-height
   Improve text rendering
 */
 body {
-  line-height: 1.5;
+  /* Common: Standardizes typography */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  /* Common: Sets in common the way of rendering the text */
+  text-rendering: optimizeLegibility;
+  /* Common: Optimize load font. */
+  font-display: swap;
+  /* Common: Smooth the font on the level of the pixel */
   -webkit-font-smoothing: antialiased;
+  /* Common: correct the line height */
+  line-height: 1.5;
+  margin: 0;
 }
 
 /*
@@ -28,7 +23,9 @@ body {
 img, picture, video, canvas, svg {
   display: block;
   width: 100%;
+  height: auto;
 }
+
 /*
   Remove built-in form typography styles
 */
@@ -37,51 +34,40 @@ input, button, textarea, select {
 }
 
 /*
-  Avoid text overflows
+  Avoid text overflows and add hyphenation when needed
 */
 p, h1, h2, h3, h4, h5, h6 {
+  word-wrap: break-word;
   overflow-wrap: break-word;
-}
-
-html {
-    /* Common: Improved accessibility */
-    font-size: 1rem;
-}
-
-body {
-    /* Common: Sets in common the way of rendering the text */
-    text-rendering: optimizeLegibility;
-    /* Common: Standardizes typography */
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    /* Common: Optimize load font. */
-    font-display: swap;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
 }
 
 a {
-    /* Hyperlink: Remove the bottom line. */
-    text-decoration: none;
-    /* Hyperlink: Remove default color */
-    color: unset;
-    /* iOS: remove the color of the highlight that appears over a link while it's being tapped */
-    -webkit-tap-highlight-color: transparent;
+  /* Remove the bottom line */
+  text-decoration: none;
+  /* Remove default color */
+  color: unset;
+  /* iOS: remove the color of the highlight that appears over a link while it's being tapped */
+  -webkit-tap-highlight-color: transparent;
 }
 
-/* Table: Standardize and modernize the appearance */
+/*
+  Table: Standardize and modernize the appearance
+*/
 table {
-    border-collapse: collapse;
-    margin-bottom: 10px;
-    width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+  width: 100%;
+}
+td, th {
+  padding: .4rem;
+  border: 1px solid black;
 }
 
-/* Table: Add border */
-td,
-th {
-    padding: .4rem;
-    border: 1px solid black;
-}
-
-/* Input: remove border radius */
 input {
+  /* Remove border radius */
   border-radius: 0;
 }
 
@@ -91,19 +77,19 @@ input[type="button"]::-moz-focus-inner,
 input[type="submit"]::-moz-focus-inner,
 input[type="reset"]::-moz-focus-inner,
 input[type="color"]::-moz-focus-inner {
-    border: 0;
+  border: 0;
 }
 
 a:focus,
 textarea:focus,
 button:focus,
 input:focus {
-    outline: none;
+  outline: none;
 }
 
 /* iOS: remove zoom double tap */
 button {
-    touch-action: manipulation;
+  touch-action: manipulation;
 }
 
 /* iOS && Firefox: remove default input appearince */
@@ -120,21 +106,21 @@ input[type="tel"],
 input[type="text"],
 input[type="url"],
 textarea {
-    -moz-appearance: none;
-    -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
 }
 
 /* Firefox: remove default input:invalid appearence */
 input:invalid {
-    box-shadow: none;
+  box-shadow: none;
 }
 
 /* iOS: remove the "cancel button" at the edge of an <input> of type="search" */
 input[type="search"]::-webkit-search-cancel-button {
-    -webkit-appearance: none;
+  -webkit-appearance: none;
 }
 
 /* Remove resize option for textarea */
 textarea {
-    resize: none;
+  resize: none;
 }
