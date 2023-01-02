@@ -7,15 +7,15 @@ It's a compilation of knowledge learned by the team through reading official doc
 
 ## Download
 
-Right click and ___save as__...
-
 [Development](https://raw.githubusercontent.com/sapps-studio/symbiosis-css/v1.9/symbiosis.css)
 
 [Production](https://cdn.jsdelivr.net/gh/sapps-studio/symbiosis-css/symbiosis.min.css)
 
 ## CDN
 
-Must be accompanied by normalize.css.
+Must be accompanied by `normalize.css`.
+
+Copy both lines and paste into your `<head>`.
 
 ``` html
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
