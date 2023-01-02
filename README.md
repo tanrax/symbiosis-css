@@ -9,7 +9,7 @@ It's a compilation of knowledge learned by the team through reading official doc
 
 Right click and ___save as__...
 
-[Development](https://raw.githubusercontent.com/sapps-studio/symbiosis-css/v1.6/symbiosis.css)
+[Development](https://raw.githubusercontent.com/sapps-studio/symbiosis-css/v1.9/symbiosis.css)
 
 [Production](https://cdn.jsdelivr.net/gh/sapps-studio/symbiosis-css/symbiosis.min.css)
 
@@ -19,5 +19,5 @@ Must be accompanied by normalize.css.
 
 ``` html
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sapps-studio/symbiosis-css@v1.7/symbiosis.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sapps-studio/symbiosis-css@v1.9/symbiosis.min.css">
 ```
